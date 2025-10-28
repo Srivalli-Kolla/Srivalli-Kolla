@@ -2,7 +2,7 @@
 
 ## PhD Candidate | Computational Cardiac Transcriptomics | Bioinformatics
 
-### Deutsches Zentrum für Herzinsuffizienz (DZHI), Uniklinikum Würzburg
+### Deutsches Zentrum für Herzinsuffizienz (DZHI), Universitätsklinikum Würzburg
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srivalli-kolla-3a1179194)
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Srivalli-Kolla)
@@ -15,9 +15,13 @@
 My expertise is centered on **Bioinformatics** and **Computational Genomics**, demonstrated through rigorous academic research in single-cell biology and industry experience in clinical oncology. My work aims to translate high-dimensional data into clinical and biological insights.
 
 ### Current Focus: Computational Cardiac Biology (PhD)
-* **Specialization:** **Decoding cardiac disease** at **single-cell and spatial resolution** . I leverage **scRNA-seq, snRNA-seq, and Spatial Transcriptomics** data to comprehensively map cellular heterogeneity and gene expression dynamics in mouse models of genetic cardiomyopathies.
-* **Core Contribution:** **Designing and deploying robust bioinformatics pipelines** for the processing, integration, and interpretation of high-dimensional transcriptomic data. This rigorous analysis is essential for **identifying key cell states, regulatory networks, and novel disease signatures**.
-* **Translational Impact:** My work directly **enhances our understanding of cardiovascular pathophysiology** and provides computational evidence to **support the discovery of novel therapeutic targets** for human heart disease.
+
+* **Scientific Mandate:** I am dedicated to **decode the molecular and cellular drivers of genetic cardiomyopathies** at **single-cell and spatial resolution**. This involves leveraging and integrating **scRNA-seq, snRNA-seq, and Spatial Transcriptomics** data to comprehensively map cellular heterogeneity and gene expression dynamics in disease models.
+* **Methodological Rigor:** I design and deploy end-to-end **robust, scalable bioinformatics pipelines** for the processing, integration, and interpretation of high-dimensional transcriptomic data. The analysis is centered on:
+    * **Identifying novel cell states** and defining cell-type-specific **Differential Gene Expression (DEG)**.
+    * **Mapping cell-cell communication networks** (using **LIANA**) and predicting Gene Regulatory Networks (GRNs).
+    * **Performing compositional and spatial analysis (MiloR, Visium)** to contextualize molecular findings within the tissue microenvironment.
+* **Translational Impact:** By establishing comprehensive cellular and spatial maps in clinically relevant mouse models, my work directly **enhances the mechanistic understanding of cardiovascular pathophysiology**. The computational evidence generated is critical for validating disease mechanisms and **accelerating the discovery and prioritization of novel therapeutic targets** for human heart disease.
 
 ### Prior Focus: Clinical Cancer Genomics (4baseCare)
 * **Experience:** Applied computational methods to Next-Generation Sequencing (NGS) data, including **Whole-Exome Sequencing (WES)** analysis and **Tumor Mutation Burden (TMB)** calculations.
