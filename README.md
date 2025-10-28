@@ -31,13 +31,13 @@ My expertise is centered on **Bioinformatics** and **Computational Genomics**, d
 My skills reflect the ability to manage and analyze complex, high-dimensional biological datasets using robust computational practices.
 
 ### Core Tool Stack
-| Domain | Key Tools & Languages 
-| :--- | :--- | :--- |
-| **Programming** | **Python**, **R** (**Bioconductor**), **Shell Scripting** (Bash/Zsh) 
-| **Single-Cell Analysis** | **Seurat**, **Scanpy**, **MiloR**, **LIANA**, **CellPhoneDB**,CellRanger 
-| **Genomics** | **scRNA-seq/snRNA-seq**, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA 
-| **Cancer Genomics** | **VCF Tools**, **ANNOVAR**, **VEP**, **OncoKB**, Custom **MSI/HRD Scoring** Scripts
-| **Data & Viz** | **Pandas**, **NumPy**, **Matplotlib**, **ggplot2**, **Plotly** 
+| Domain | Key Tools & Languages |
+| :--- | :--- |
+| **Programming** | **Python**, **R** (**Bioconductor**), **Shell Scripting** (Bash/Zsh) |
+| **Single-Cell Analysis** | **Seurat**, **Scanpy**, **MiloR**, **LIANA**, **CellPhoneDB**,CellRanger |
+| **Genomics** | **scRNA-seq/snRNA-seq**, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA |
+| **Cancer Genomics** | **VCF Tools**, **ANNOVAR**, **VEP**, **OncoKB**, Custom **MSI/HRD Scoring** Scripts|
+| **Data & Viz** | **Pandas**, **NumPy**, **Matplotlib**, **ggplot2**, **Plotly** |
 
 ### Key Methodological Proficiencies
 
