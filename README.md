@@ -36,6 +36,7 @@ My expertise is centered on **Bioinformatics** and **Computational Genomics**, d
 My skills reflect the ability to manage and analyze complex, high-dimensional biological datasets using robust computational practices.
 
 ### Core Tool Stack
+
 | Domain | Key Tools & Languages |
 | :--- | :--- |
 | **Programming** | **Python**, **R** (**Bioconductor**), **Shell Scripting** (Bash/Zsh) |
