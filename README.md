@@ -43,8 +43,6 @@ My skills reflect the ability to manage and analyze complex, high-dimensional bi
 | **Genomics** | **scRNA-seq/snRNA-seq**, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA |
 | **Cancer Genomics** | **VCF Tools**, **ANNOVAR**, **VEP**, **OncoKB**, Custom **MSI/HRD Scoring** Scripts |
 | **Data & Viz** | **Pandas**, **NumPy**, **Matplotlib**, **ggplot2**, **Plotly** |
-| **Workflow** | **Pipeline Design** (**Nextflow**/Snakemake), Reproducibility |
-| **Computing** | **HPC Cluster Management (SLURM)**, Git/GitHub, Docker/Conda Environments, Linux |
 
 ---
 
