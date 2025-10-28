@@ -1,6 +1,6 @@
 # Srivalli Kolla
 
-## PhD Candidate | Computational Cardiac Transcriptomics | Bioinformatics
+## PhD Candidate | Computational Cardiac & Clinical Genomics | Bioinformatics
 
 ### Deutsches Zentrum für Herzinsuffizienz (DZHI), Universitätsklinikum Würzburg
 
@@ -12,11 +12,11 @@
 
 ## Research & Professional Profile
 
-My expertise is centered on **Bioinformatics** and **Computational Genomics**, demonstrated through rigorous academic research in single-cell biology and industry experience in clinical oncology. My work aims to translate high-dimensional data into clinical and biological insights.
+My expertise is centered on **Bioinformatics** and **Computational Genomics**, demonstrated through rigorous academic research in single-cell cardiac biology and industry experience in clinical oncology. My work aims to translate high-dimensional data into clinical and biological insights.
 
-### Current Focus: Computational Cardiac Biology (PhD)
+### Current Focus: Computational Cardiac Transcriptomics (PhD)
 
-* **Scientific Mandate:** I am dedicated to **decode the molecular and cellular drivers of genetic cardiomyopathies** at **single-cell and spatial resolution**. This involves leveraging and integrating **scRNA-seq, snRNA-seq, and Spatial Transcriptomics** data to comprehensively map cellular heterogeneity and gene expression dynamics in disease models.
+* **Scientific Mandate:** I am dedicated to **decoding the molecular and cellular drivers of genetic cardiomyopathies** at **single-cell and spatial resolution**. This involves leveraging and integrating **scRNA-seq, snRNA-seq, and Spatial Transcriptomics** data to comprehensively map cellular heterogeneity and gene expression dynamics in disease models.
 * **Methodological Rigor:** I design and deploy end-to-end **robust, scalable bioinformatics pipelines** for the processing, integration, and interpretation of high-dimensional transcriptomic data. The analysis is centered on:
     * **Identifying novel cell states** and defining cell-type-specific **Differential Gene Expression (DEG)**.
     * **Mapping cell-cell communication networks** (using **LIANA**) and predicting Gene Regulatory Networks (GRNs).
@@ -24,13 +24,14 @@ My expertise is centered on **Bioinformatics** and **Computational Genomics**, d
 * **Translational Impact:** By establishing comprehensive cellular and spatial maps in clinically relevant mouse models, my work directly **enhances the mechanistic understanding of cardiovascular pathophysiology**. The computational evidence generated is critical for validating disease mechanisms and **accelerating the discovery and prioritization of novel therapeutic targets** for human heart disease.
 
 ### Prior Focus: Clinical Cancer Genomics (4baseCare)
+
 * **Experience:** Applied computational methods to Next-Generation Sequencing (NGS) data, including **Whole-Exome Sequencing (WES)** analysis and **Tumor Mutation Burden (TMB)** calculations.
 * **Key Contribution:** **Involved in the bioinformatics analysis** for a groundbreaking study on TMB in over **1,200 cancer patients from India**—one of the largest such efforts in South-East Asia—contributing directly to the first major publication of its kind.
 * **Liquid Biopsy Expertise:** Developed specialized scripts and analytical pipelines for **cfDNA (cell-free DNA)** based cancer detection, focusing on clinically critical biomarkers like **Microsatellite Instability (MSI)**, **Homologous Recombination Deficiency (HRD)** scores, and **TMB** in liquid biopsy samples.
 
 ---
 
-## Technical Expertise 
+## Technical Expertise & Methodological Focus
 
 My skills reflect the ability to manage and analyze complex, high-dimensional biological datasets using robust computational practices.
 
@@ -38,18 +39,13 @@ My skills reflect the ability to manage and analyze complex, high-dimensional bi
 | Domain | Key Tools & Languages |
 | :--- | :--- |
 | **Programming** | **Python**, **R** (**Bioconductor**), **Shell Scripting** (Bash/Zsh) |
-| **Single-Cell Analysis** | **Seurat**, **Scanpy**, **MiloR**, **LIANA**, **CellPhoneDB**,CellRanger |
+| **Single-Cell Analysis** | **Seurat**, **Scanpy**, **MiloR**, **LIANA**, **CellPhoneDB**, CellRanger |
 | **Genomics** | **scRNA-seq/snRNA-seq**, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA |
-| **Cancer Genomics** | **VCF Tools**, **ANNOVAR**, **VEP**, **OncoKB**, Custom **MSI/HRD Scoring** Scripts|
+| **Cancer Genomics** | **VCF Tools**, **ANNOVAR**, **VEP**, **OncoKB**, Custom **MSI/HRD Scoring** Scripts |
 | **Data & Viz** | **Pandas**, **NumPy**, **Matplotlib**, **ggplot2**, **Plotly** |
+| **Workflow** | **Pipeline Design** (**Nextflow**/Snakemake), Reproducibility |
+| **Computing** | **HPC Cluster Management (SLURM)**, Git/GitHub, Docker/Conda Environments, Linux |
 
-### Key Methodological Proficiencies
-
-I maintain rigorous, publication-ready analytical standards, emphasizing reproducible and biologically justified methodology:
-
-* **Clustering & Normalization:** Expert use of **SCTransform** for snRNA-seq data normalization, coupled with **Louvain clustering** at multiple resolutions to accurately capture cellular heterogeneity.
-* **Discovery & Annotation:** Employ **Differential Gene Expression (DEG) analysis** for primary cell-type annotation, ensuring biological fidelity and avoiding reliance on external, potentially biased reference datasets.
-* **Advanced Analysis:** Expertise in **pseudobulk analysis (GSEA)** for pathway enrichment, **MiloR** for label-free compositional changes, and **LIANA** for robust, multi-method cell–cell communication inference.
 ---
 
 ## Selected Publications & Computational Projects
@@ -60,7 +56,7 @@ These publications and projects showcase the direct application of my computatio
 * **Significance:** A groundbreaking study—one of the largest TMB research efforts from South-East Asia—involving WES analysis from over 1,200 tumor tissues.
 * **Skills Applied:** **WES Analysis**, **TMB Scoring**, **Python/R** for statistical interpretation.
 * **Publication:** *Understanding the Impact of Population and Cancer Type on Tumor Mutation Burden Scores: A Comprehensive Whole-Exome Study in Cancer Patients From India*
-* **Journal/Conference:** **JCO, ASCO** (Nov 2023) 
+* **Journal/Conference:** **JCO, ASCO** (Nov 2023)
 
 ### 2. **Evaluation of Antimicrobial Efficacy of *Tinospora Cordifolia* Extract**
 * **Focus:** Experimental and analytical assessment of a botanical extract against drug-resistant pathogens.
@@ -91,5 +87,5 @@ These publications and projects showcase the direct application of my computatio
 
 I welcome professional inquiries, potential collaborations, and discussions on computational transcriptomics and translational science.
 
-* **Email:** [Kolla_S@ukw.de]
+* **Email:** Kolla\_S@ukw.de
 * **ORCID:** [https://orcid.org/0009-0003-4169-490X]
