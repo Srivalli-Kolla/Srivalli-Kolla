@@ -26,33 +26,26 @@ My expertise is centered on **Bioinformatics** and **Computational Genomics**, d
 
 ---
 
-## Technical Expertise & Analytical Workflow
+## Technical Expertise 
 
 My skills reflect the ability to manage and analyze complex, high-dimensional biological datasets using robust computational practices.
 
 ### Core Tool Stack
-| Domain | Key Tools & Languages | Experience Level |
+| Domain | Key Tools & Languages 
 | :--- | :--- | :--- |
-| **Programming** | **Python**, **R** (Bioconductor), Shell Scripting | Advanced |
-| **Single-Cell Analysis** | **Seurat**, **Scanpy**, **MiloR**, **LIANA** (CellPhoneDB, NATMI) | Advanced |
-| **Genomics** | **scRNA-seq/snRNA-seq**, **Spatial Transcriptomics (Visium)**, WES, NGS | Advanced |
+| **Programming** | **Python**, **R** (**Bioconductor**), **Shell Scripting** (Bash/Zsh) 
+| **Single-Cell Analysis** | **Seurat**, **Scanpy**, **MiloR**, **LIANA**, **CellPhoneDB**,CellRanger 
+| **Genomics** | **scRNA-seq/snRNA-seq**, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA 
+| **Cancer Genomics** | **VCF Tools**, **ANNOVAR**, **VEP**, **OncoKB**, Custom **MSI/HRD Scoring** Scripts
+| **Data & Viz** | **Pandas**, **NumPy**, **Matplotlib**, **ggplot2**, **Plotly** 
 
-### Advanced Single-Cell Analytical Workflow
+### Key Methodological Proficiencies
 
-I employ a justified, multi-step pipeline for all single-nucleus/single-cell transcriptomic projects:
+I maintain rigorous, publication-ready analytical standards, emphasizing reproducible and biologically justified methodology:
 
-1.  **Normalization & Clustering (Seurat/SCTransform):**
-    * Utilize **SCTransform** for effective normalization in snRNA-seq data, addressing technical variability while preserving critical biological signals.
-    * Perform PCA and **Louvain clustering at multiple resolutions** to ensure the capture of modular data structure and biologically coherent cell populations.
-2.  **Cell Annotation (DEG-Driven):**
-    * Annotation is based rigorously on **marker gene expression** and **Differential Gene Expression (DEG) analysis** within the dataset, prioritizing dataset-specific biology over potentially misleading reference-based methods.
-3.  **Pathway Analysis (Pseudobulk & GSEA):**
-    * Employs **pseudobulk analysis** to aggregate gene counts per cell type, increasing statistical power and enabling robust, cell-type-specific pathway identification via **Gene Set Enrichment Analysis (GSEA)**.
-4.  **Compositional Analysis (MiloR):**
-    * Utilize **MiloR** for label-free compositional analysis, leveraging local neighborhood structure to detect subtle differences in cell population abundances across conditions that standard proportion tests might miss.
-5.  **Cell–Cell Communication (LIANA):**
-    * **LIANA** is used to provide robust predictions of intercellular signaling by integrating multiple ligand–receptor inference methods, enabling clear visualization and mechanistic understanding of interacting cell types/subtypes.
-
+* **Clustering & Normalization:** Expert use of **SCTransform** for snRNA-seq data normalization, coupled with **Louvain clustering** at multiple resolutions to accurately capture cellular heterogeneity.
+* **Discovery & Annotation:** Employ **Differential Gene Expression (DEG) analysis** for primary cell-type annotation, ensuring biological fidelity and avoiding reliance on external, potentially biased reference datasets.
+* **Advanced Analysis:** Expertise in **pseudobulk analysis (GSEA)** for pathway enrichment, **MiloR** for label-free compositional changes, and **LIANA** for robust, multi-method cell–cell communication inference.
 ---
 
 ## Selected Publications & Computational Projects
@@ -84,7 +77,7 @@ These publications and projects showcase the direct application of my computatio
 | Institution/Company | Role | Focus Area |
 | :--- | :--- | :--- |
 | **Universitätsklinikum Würzburg** | **PhD Candidate** | Computational Cardiac Single-Cell & Spatial Transcriptomics Research |
-| **The Julius Maximilians University of Würzburg** | **PhD Candidate** | Single-Cell & Spatial Transcriptomics Research |
+| **The Julius Maximilians University of Würzburg** | **PhD Candidate** | Single-Cell Transcriptomics Research |
 | **4baseCare** | **Associate Research Bioinformatician** | Clinical Cancer Genomics |
 | **Manipal Academy of Higher Education** | **M.Sc** | Systems Biology |
 
