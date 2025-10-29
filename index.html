@@ -29,7 +29,6 @@
             display: flex;
             gap: 20px;
             margin-top: 15px;
-            font-weight: bold;
         }
         .link-bar a {
             color: #2980b9; /* Professional blue */
@@ -56,10 +55,11 @@
             border-radius: 4px;
             border-left: 4px solid #3498db; /* Highlight bar */
         }
-        #expertise li strong {
+        /* Styling for the domain titles in the tools list (no bolding) */
+        .domain-title {
             color: #2c3e50;
             font-size: 1.05em;
-            display: block; /* Makes the domain bold stand out */
+            display: block;
             margin-bottom: 5px;
         }
 
@@ -93,20 +93,20 @@
 
     <section id="profile">
         <h2>Research & Professional Profile</h2>
-        <p>My expertise is centered on **Bioinformatics** and **Computational Genomics**, demonstrated through rigorous academic research in single-cell cardiac biology and industry experience in clinical oncology. My work aims to translate high-dimensional data into clinical and biological insights.</p>
+        <p>My expertise is centered on Bioinformatics and Computational Genomics, demonstrated through rigorous academic research in single-cell cardiac biology and industry experience in clinical oncology. My work aims to translate high-dimensional data into clinical and biological insights.</p>
         
         <h3>Current Focus: Computational Cardiac Transcriptomics (PhD)</h3>
         <ul>
-            <li>**Scientific Mandate:** I am dedicated to **decoding the molecular and cellular drivers of genetic cardiomyopathies** at **single-cell and spatial resolution**. This involves leveraging and integrating **scRNA-seq, snRNA-seq, and Spatial Transcriptomics** data.</li>
-            <li>**Methodological Rigor:** I design and deploy end-to-end **robust, scalable bioinformatics pipelines** for data processing, integration, and interpretation. Analysis includes **Identifying novel cell states**, defining **Differential Gene Expression (DEG)**, and **Mapping cell-cell communication networks** (using **LIANA**).</li>
-            <li>**Translational Impact:** My work directly **enhances the mechanistic understanding of cardiovascular pathophysiology** and is critical for validating disease mechanisms and **accelerating the discovery and prioritization of novel therapeutic targets**.</li>
+            <li>Scientific Mandate: I am dedicated to decoding the molecular and cellular drivers of genetic cardiomyopathies at single-cell and spatial resolution. This involves leveraging and integrating scRNA-seq, snRNA-seq, and Spatial Transcriptomics data.</li>
+            <li>Methodological Rigor: I design and deploy end-to-end robust, scalable bioinformatics pipelines for data processing, integration, and interpretation. Analysis includes Identifying novel cell states, defining Differential Gene Expression (DEG), and Mapping cell-cell communication networks (using LIANA).</li>
+            <li>Translational Impact: My work directly enhances the mechanistic understanding of cardiovascular pathophysiology and is critical for validating disease mechanisms and accelerating the discovery and prioritization of novel therapeutic targets.</li>
         </ul>
 
         <h3>Prior Focus: Clinical Cancer Genomics (4baseCare)</h3>
         <ul>
-            <li>**Experience:** Applied computational methods to Next-Generation Sequencing (NGS) data, including **Whole-Exome Sequencing (WES)** analysis and **Tumor Mutation Burden (TMB)** calculations.</li>
-            <li>**Key Contribution:** Involved in the bioinformatics analysis for a groundbreaking study on TMB in over **1,200 cancer patients from India**—one of the largest such efforts in South-East Asia.</li>
-            <li>**Liquid Biopsy Expertise:** Developed specialized scripts and analytical pipelines for **cfDNA (cell-free DNA)** based cancer detection, focusing on clinically critical biomarkers like **Microsatellite Instability (MSI)** and **Homologous Recombination Deficiency (HRD)** scores.</li>
+            <li>Experience: Applied computational methods to Next-Generation Sequencing (NGS) data, including Whole-Exome Sequencing (WES) analysis and Tumor Mutation Burden (TMB) calculations.</li>
+            <li>Key Contribution: Involved in the bioinformatics analysis for a groundbreaking study on TMB in over 1,200 cancer patients from India—one of the largest such efforts in South-East Asia.</li>
+            <li>Liquid Biopsy Expertise: Developed specialized scripts and analytical pipelines for cfDNA (cell-free DNA) based cancer detection, focusing on clinically critical biomarkers like Microsatellite Instability (MSI) and Homologous Recombination Deficiency (HRD) scores.</li>
         </ul>
     </section>
 
@@ -118,19 +118,19 @@
 
         <h3>Core Tools</h3>
         <ul>
-            <li><strong>Programming & Scripting:</strong> Python, R (Bioconductor), Shell Scripting (Bash/Zsh)</li>
-            <li><strong>Single-Cell Analysis:</strong> Seurat, Scanpy, MiloR, LIANA, CellPhoneDB, CellRanger</li>
-            <li><strong>Genomics:</strong> scRNA-seq/snRNA-seq, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA</li>
-            <li><strong>Cancer Genomics:</strong> VCF Tools, ANNOVAR, VEP, OncoKB, Custom MSI/HRD Scoring Scripts</li>
-            <li><strong>Data Handling & Visualization:</strong> Pandas, NumPy, Matplotlib, ggplot2, Plotly</li>
-            <li><strong>Workflow & Computing:</strong> Pipeline Design (Nextflow/Snakemake), HPC Cluster Management (SLURM), Git/GitHub, Docker/Conda Environments, Linux</li>
+            <li><span class="domain-title">Programming & Scripting:</span> Python, R (Bioconductor), Shell Scripting (Bash/Zsh)</li>
+            <li><span class="domain-title">Single-Cell Analysis:</span> Seurat, Scanpy, MiloR, LIANA, CellPhoneDB, CellRanger</li>
+            <li><span class="domain-title">Genomics:</span> scRNA-seq/snRNA-seq, Spatial Transcriptomics (Visium), WES, Bulk RNA-seq, STAR, BWA</li>
+            <li><span class="domain-title">Cancer Genomics:</span> VCF Tools, ANNOVAR, VEP, OncoKB, Custom MSI/HRD Scoring Scripts</li>
+            <li><span class="domain-title">Data Handling & Visualization:</span> Pandas, NumPy, Matplotlib, ggplot2, Plotly</li>
+            <li><span class="domain-title">Workflow & Computing:</span> Pipeline Design (Nextflow/Snakemake), HPC Cluster Management (SLURM), Git/GitHub, Docker/Conda Environments, Linux</li>
         </ul>
         
         <h3>Key Methodological Proficiencies</h3>
         <ul>
-            <li>**Clustering & Normalization:** Expert use of **SCTransform** for snRNA-seq data normalization, coupled with **Louvain clustering** to accurately capture cellular heterogeneity.</li>
-            <li>**Discovery & Annotation:** Employ **Differential Gene Expression (DEG) analysis** for primary cell-type annotation, ensuring biological fidelity and avoiding reliance on external reference datasets.</li>
-            <li>**Advanced Analysis:** Expertise in **pseudobulk analysis (GSEA)** for pathway enrichment, **MiloR** for label-free compositional changes, and **LIANA** for robust cell–cell communication inference.</li>
+            <li>Clustering & Normalization: Expert use of SCTransform for snRNA-seq data normalization, coupled with Louvain clustering to accurately capture cellular heterogeneity.</li>
+            <li>Discovery & Annotation: Employ Differential Gene Expression (DEG) analysis for primary cell-type annotation, ensuring biological fidelity and avoiding reliance on external reference datasets.</li>
+            <li>Advanced Analysis: Expertise in pseudobulk analysis (GSEA) for pathway enrichment, MiloR for label-free compositional changes, and LIANA for robust cell–cell communication inference.</li>
         </ul>
     </section>
 
@@ -142,25 +142,24 @@
         
         <h3>1. Whole-Exome Study on Tumor Mutation Burden (TMB) in Indian Cancer Patients</h3>
         <ul>
-            <li>**Significance:** A groundbreaking study—one of the largest TMB research efforts from South-East Asia.</li>
-            <li>**Skills Applied:** **WES Analysis**, **TMB Scoring**, **Python/R** for statistical interpretation.</li>
-            <li>**Publication:** *Understanding the Impact of Population and Cancer Type on Tumor Mutation Burden Scores: A Comprehensive Whole-Exome Study in Cancer Patients From India*</li>
-            <li>**Journal/Conference:** **JCO, ASCO** (Nov 2023)</li>
+            <li>Significance: A groundbreaking study—one of the largest TMB research efforts from South-East Asia.</li>
+            <li>Skills Applied: WES Analysis, TMB Scoring, Python/R for statistical interpretation.</li>
+            <li>Publication: *Understanding the Impact of Population and Cancer Type on Tumor Mutation Burden Scores: A Comprehensive Whole-Exome Study in Cancer Patients From India*</li>
+            <li>Journal/Conference: JCO, ASCO (Nov 2023)</li>
         </ul>
 
         <h3>2. Evaluation of Antimicrobial Efficacy of *Tinospora Cordifolia* Extract</h3>
         <ul>
-            <li>**Focus:** Experimental and analytical assessment of a botanical extract against drug-resistant pathogens.</li>
-            <li>**Journal:** Journal of Chemical Health risks (Jan 2024)</li>
+            <li>Focus: Experimental and analytical assessment of a botanical extract against drug-resistant pathogens.</li>
+            <li>Journal: Journal of Chemical Health risks (Jan 2024)</li>
         </ul>
         
         <h3>3. Profiles of Bacterial Isolates Exhibiting Antibiotic Resistance</h3>
         <ul>
-            <li>**Focus:** A study on bacterial isolates and their antibiotic resistance patterns.</li>
-            <li>**Journal:** European Chemical Bulletin (Aug 2023)</li>
+            <li>Focus: A study on bacterial isolates and their antibiotic resistance patterns.</li>
+            <li>Journal: European Chemical Bulletin (Aug 2023)</li>
         </ul>
-        
-        </section>
+    </section>
 
     <hr>
 
@@ -176,23 +175,23 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>**Universitätsklinikum Würzburg**</td>
-                    <td>**PhD Candidate**</td>
+                    <td>Universitätsklinikum Würzburg</td>
+                    <td>PhD Candidate</td>
                     <td>Computational Cardiac Single-Cell & Spatial Transcriptomics Research</td>
                 </tr>
                 <tr>
-                    <td>**The Julius Maximilians University of Würzburg**</td>
-                    <td>**PhD Candidate**</td>
+                    <td>The Julius Maximilians University of Würzburg</td>
+                    <td>PhD Candidate</td>
                     <td>Single-Cell Transcriptomics Research</td>
                 </tr>
                 <tr>
-                    <td>**4baseCare**</td>
-                    <td>**Associate Research Bioinformatician**</td>
+                    <td>4baseCare</td>
+                    <td>Associate Research Bioinformatician</td>
                     <td>Clinical Cancer Genomics</td>
                 </tr>
                 <tr>
-                    <td>**Manipal Academy of Higher Education**</td>
-                    <td>**M.Sc**</td>
+                    <td>Manipal Academy of Higher Education</td>
+                    <td>M.Sc</td>
                     <td>Systems Biology</td>
                 </tr>
             </tbody>
@@ -205,8 +204,8 @@
         <h2>Contact & Profile</h2>
         <p>I welcome professional inquiries, potential collaborations, and discussions on computational transcriptomics and translational science.</p>
         <ul>
-            <li>**Email:** <a href="mailto:Kolla_S@ukw.de">Kolla\_S@ukw.de</a></li>
-            <li>**ORCID:** <a href="https://orcid.org/0009-0003-4169-490X" target="_blank">https://orcid.org/0009-0003-4169-490X</a></li>
+            <li>Email: <a href="mailto:Kolla_S@ukw.de">Kolla\_S@ukw.de</a></li>
+            <li>ORCID: <a href="https://orcid.org/0009-0003-4169-490X" target="_blank">https://orcid.org/0009-0003-4169-490X</a></li>
         </ul>
     </section>
 
