@@ -1,3 +1,6 @@
+![image png](https://github.com/user-attachments/assets/3af0a9ce-6e7f-4a78-a7f3-1549dbfd9a2d)
+
+
 # Srivalli Kolla
 
 ## PhD Candidate | Computational Cardiac & Clinical Genomics | Bioinformatics
