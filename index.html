@@ -4,6 +4,7 @@
     <title>Srivalli Kolla | Computational Cardiac & Clinical Genomics Portfolio</title>
     <meta name="google-site-verification" content="UTYy1dww3VtAyLk7EA-FTbaqhK68xuFWiWhoPWHUHxQ" />
     <meta name="description" content="Official portfolio of Srivalli Kolla, PhD Candidate specializing in Bioinformatics, Computational Cardiac Single-Cell Genomics, and Clinical Cancer Genomics.">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -18,6 +19,26 @@
         }
         header, section { margin-bottom: 40px; }
 
+        /* --- Header Content Grid (NEW STYLES) --- */
+        .header-content {
+            display: flex;
+            justify-content: space-between; /* Places text on left, image on right */
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header-text {
+            /* Ensures text doesn't push the image too far */
+            max-width: 700px; 
+        }
+        .profile-img {
+            width: 120px; 
+            height: 120px;
+            border-radius: 50%; /* Makes it a circle */
+            object-fit: cover; 
+            border: 4px solid #3498db; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            flex-shrink: 0; /* Prevents image from shrinking on smaller screens */
+        }
         /* --- Headings --- */
         h1 { color: #2c3e50; font-size: 2.2em; margin-bottom: 5px; }
         h2 { color: #34495e; font-size: 1.5em; border-bottom: 3px solid #34495e; padding-bottom: 8px; margin-top: 30px; }
@@ -30,7 +51,7 @@
             margin-top: 15px;
         }
         .link-bar a {
-            color: #2980b9; /* Professional blue */
+            color: #2980b9; 
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -42,19 +63,18 @@
         /* --- Lists & Tools (The Clean Look) --- */
         ul { padding-left: 20px; margin-bottom: 20px; }
         #expertise ul { 
-            list-style: none; /* Remove standard bullets */
+            list-style: none; 
             padding-left: 0;
             display: grid;
             grid-template-columns: 1fr;
             gap: 15px;
         }
         #expertise li {
-            background: #ecf0f1; /* Light background for separation */
+            background: #ecf0f1; 
             padding: 10px 15px;
             border-radius: 4px;
-            border-left: 4px solid #3498db; /* Highlight bar */
+            border-left: 4px solid #3498db; 
         }
-        /* Styling for the domain titles in the tools list (no bolding) */
         .domain-title {
             color: #2c3e50;
             font-size: 1.05em;
@@ -71,15 +91,21 @@
             vertical-align: top;
         }
         th { background-color: #eaf1f7; font-weight: bold; color: #34495e; }
-        tr:nth-child(even) { background-color: #f9f9f9; } /* Subtle zebra striping */
+        tr:nth-child(even) { background-color: #f9f9f9; } 
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Srivalli Kolla</h1>
-        <h2>PhD Candidate | Computational Cardiac & Clinical Genomics | Bioinformatics</h2>
-        <h3>Deutsches Zentrum für Herzinsuffizienz (DZHI), Universitätsklinikum Würzburg</h3>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Srivalli Kolla</h1>
+                <h2>PhD Candidate | Computational Cardiac & Clinical Genomics | Bioinformatics</h2>
+                <h3>Deutsches Zentrum für Herzinsuffizienz (DZHI), Universitätsklinikum Würzburg</h3>
+            </div>
+            
+            <img src="https://raw.githubusercontent.com/Srivalli-Kolla/portfolio/image.png.jpg" alt="Srivalli Kolla Profile Picture" class="profile-img">
+        </div>
         
         <div class="link-bar">
             <a href="https://www.linkedin.com/in/srivalli-kolla-3a1179194" target="_blank">🔗 LinkedIn</a>
